@@ -1,7 +1,10 @@
 {
-  "name": "myadmin",
+  "name": "mynodeadmin",
   "version": "1.0.0",
+  "description": "nodeadmin with express",
   "main": "index.js",
+  "repository": "https://github.com/maxsolovev/nodeadmin.git",
+  "author": "Max Solovev",
   "license": "MIT",
   "scripts": {
     "dev": "node index.js",
