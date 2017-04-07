@@ -1,0 +1,15 @@
+{
+  "name": "myadmin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js",
+    "start": "forever start -a index.js",
+    "stop": "forever stop index.js"
+  },
+  "dependencies": {
+    "forever": "^0.15.3",
+    "nodeadmin": "^0.1.2"
+  }
+}
